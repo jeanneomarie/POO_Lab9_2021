@@ -17,7 +17,6 @@ public class Main {
         Lucrator lucrator2 = null;
         try {
             lucrator2.lucreaza("Sambata");
-
         } catch (ExceptieZiNelucratoare e) {
             System.out.println(e.getMessage());
             e.printStackTrace();
@@ -25,5 +24,4 @@ public class Main {
             System.out.println("Variabila lucrator este nula");
         }
     }
-
 }
