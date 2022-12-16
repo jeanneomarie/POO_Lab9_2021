@@ -24,5 +24,4 @@ public class Zi {
     public void setEsteLucratoare(boolean esteLucratoare) {
         this.esteLucratoare = esteLucratoare;
     }
-
 }
