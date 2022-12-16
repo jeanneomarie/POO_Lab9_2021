@@ -22,14 +22,4 @@ public class CalendarLucru {
     public void setZile(Zi[] zile) {
         this.zile = zile;
     }
-
-    // abordare semigrupa 2
-    public int existaZi(String nume) {
-        for(int i=0; i< zile.length; i++) {
-            if(nume.equals(zile[i].getNume())) {
-                return i;
-            }
-        }
-        return -1;
-    }
 }
